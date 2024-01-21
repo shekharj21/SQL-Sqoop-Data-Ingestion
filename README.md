@@ -10,7 +10,6 @@ You need to build the following requirement:
 - Schedule pipeline such a way that new data from Database can be transferred to Hadoop automatically on daily basis.
 
 ## Create a AWS RDS Database :
-![Screenshot (510)](https://github.com/shekharj21/shekharj21/assets/54074505/9b7126c3-44d6-497a-bce9-172f2e6cbdd9)
 1. Make sure to chnage the security rules.
 2. Make sure inbound and outbound security rules are stated properly.
 3. Make sure the Database is publically Accessible.
