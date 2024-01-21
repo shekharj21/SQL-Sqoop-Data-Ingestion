@@ -14,4 +14,7 @@ You need to build the following requirement:
 2. Make sure inbound and outbound security rules are stated properly.
 3. Make sure the Database is publically Accessible.
 
-
+## Connect AWS RDS with MySQL Workbench :
+1. 
+1. Make sure to check the security group inbound and outbound rules otherwise it can create problem connecting with MySQL workbench.
+2. If you are having any issue cconnecting with MySQL Workbench then refer this video ------> https://www.youtube.com/watch?v=N4tz-S65lVo&t=281s
