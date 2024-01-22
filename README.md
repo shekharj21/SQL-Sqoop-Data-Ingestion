@@ -12,16 +12,20 @@ You need to build the following requirement:
 ## Create EC2 Instance :
 ![Screenshot (513)](https://github.com/shekharj21/shekharj21/assets/54074505/613e72eb-a6b5-4e6c-9cec-31e9fa7cbaaf)
 1. Create a EC2 Instance.
-2. Make sure we create a new security group or use a previous one where Setting is selected as SSH and assigned to user's IP.
-3. Download a key-pair in .ppk format so we can use it to connect it to the putty.
-4. If there is error message saying "connection timed out" then please refer this video -------> https://www.youtube.com/watch?v=YWwJuO9299s
+2. Please choose OS as ubuntu.
+3. Make sure we create a new security group or use a previous one where Setting is selected as SSH and assigned to user's IP.
+4. Download a key-pair in .ppk format so we can use it to connect it to the putty.
+5. If there is error message saying "connection timed out" then please refer this video -------> https://www.youtube.com/watch?v=YWwJuO9299s
 
 ## EC2 Connection to Putty :
 ![Screenshot (514)](https://github.com/shekharj21/shekharj21/assets/54074505/0ebc14a7-f3c0-46a7-be1d-0f8476ab5f69)
 1. Download and install Putty.
-2. Copy the Public IPv4 DNS from EC2 instance and Paste inside Host Name of putty.
-3. Go to SSH----> Auth ------> Credential
-4. Select the .ppk file in Private key Authentication file section and open it.
+2. make use of PuttyGen if private key is in .ppm file and not in .ppk
+3. Open PuttyGen and Load the .ppm keypair file downloaded from instance.
+4. Save as private key and give the same name as .ppm key_pair filea and save it.
+6. Copy the Public IPv4 DNS from EC2 instance and Paste inside Host Name of putty.
+7. Go to SSH----> Auth ------> Credential
+8. Select the .ppk file in Private key Authentication file section and open it.
 ![Screenshot (516)](https://github.com/shekharj21/shekharj21/assets/54074505/183b5a8b-0f6e-47e6-9044-cff54dd304dc)
 
 
@@ -45,3 +49,12 @@ You need to build the following requirement:
 1. At this point, i am assuming that we are successfully connected the RDS with MySQL Workbench.
 2. We will create a schema of the table, by creating the different tables. (Schema.sql)
 3. we will add records in the table. (Records.sql)
+
+## Install Airflow on EC2 instance using Putty.
+1. sudo apt update
+2. sudo apt install python-pip (Select the Services and press Ok)
+3. sudo apt install sqlite3
+4. sudo apt install python3.10-venv
+5. python3 -m venv venv
+6. 
+7. sudo ap
