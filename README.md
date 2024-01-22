@@ -51,10 +51,4 @@ You need to build the following requirement:
 3. we will add records in the table. (Records.sql)
 
 ## Install Airflow on EC2 instance using Putty.
-1. sudo apt update
-2. sudo apt install python-pip (Select the Services and press Ok)
-3. sudo apt install sqlite3
-4. sudo apt install python3.10-venv
-5. python3 -m venv venv
-6. 
-7. sudo ap
+- Please refer following video for airflow installation ------->   https://www.youtube.com/watch?v=6HQiiUk-a_o
